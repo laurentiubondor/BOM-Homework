@@ -22,6 +22,6 @@ function schimbaUrl() {
 buton.addEventListener("click", schimbaUrl)
 
 
-document.cookie = "username=John Doe";
+document.cookie = "username=Ion";
 var x = document.cookie;
 console.log(x)
