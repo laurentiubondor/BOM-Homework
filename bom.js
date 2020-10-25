@@ -20,3 +20,8 @@ function schimbaUrl() {
 }
 
 buton.addEventListener("click", schimbaUrl)
+
+
+document.cookie = "username=John Doe";
+var x = document.cookie;
+console.log(x)
